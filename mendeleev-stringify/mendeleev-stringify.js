@@ -1,4 +1,4 @@
-let men = require('./mendeleev');
+let men = require('./mendeleev/mendeleev');
 
 async function  mendeleevStringify(str){
     let value = await men(str);
